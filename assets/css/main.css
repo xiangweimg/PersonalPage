@@ -1760,11 +1760,12 @@ input, select, textarea {
 			width: 48px;
 			height: 48px;
 			background: #f00;
+			object-fit:contain;
 		}
 		
 		.image.avatar48 img {
 			width: 48px;
-			height: 48px;
+			height: 60px;
 		}
 		
 		.image.fit {
@@ -1778,7 +1779,7 @@ input, select, textarea {
 			width: 100%;
 		}
 		.image.featured img{
-			height: 200px;
+			height: 225px;
 			width: 200px;
 			padding-right: 20px;
 		}
